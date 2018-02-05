@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24" started-at="2017-12-30T07:50:28Z" finished-at="2017-12-30T07:50:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24" started-at="2017-12-30T07:50:28Z" finished-at="2017-12-30T07:50:29Z">
+      <class name="seleniumTests.SampleTest4">
+        <test-method status="PASS" signature="Login()[pri:0, instance:seleniumTests.SampleTest4@27a8c74e]" name="Login" is-config="true" duration-ms="0" started-at="2017-12-29T23:50:29Z" finished-at="2017-12-29T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AdvancedSearch()[pri:0, instance:seleniumTests.SampleTest4@27a8c74e]" name="AdvancedSearch" duration-ms="0" started-at="2017-12-29T23:50:29Z" depends-on-methods="seleniumTests.SampleTest4.Search" finished-at="2017-12-29T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearch -->
+        <test-method status="PASS" signature="BuyProducts()[pri:0, instance:seleniumTests.SampleTest4@27a8c74e]" name="BuyProducts" duration-ms="0" started-at="2017-12-29T23:50:29Z" depends-on-methods="seleniumTests.SampleTest4.AdvancedSearch" finished-at="2017-12-29T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyProducts -->
+        <test-method status="PASS" signature="Search()[pri:0, instance:seleniumTests.SampleTest4@27a8c74e]" name="Search" duration-ms="0" started-at="2017-12-29T23:50:29Z" finished-at="2017-12-29T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:seleniumTests.SampleTest4@27a8c74e]" name="Logout" is-config="true" duration-ms="0" started-at="2017-12-29T23:50:29Z" finished-at="2017-12-29T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- seleniumTests.SampleTest4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

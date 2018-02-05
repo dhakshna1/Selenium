@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29" started-at="2017-10-20T05:12:43Z" finished-at="2017-10-20T05:12:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29" started-at="2017-10-20T05:12:43Z" finished-at="2017-10-20T05:12:43Z">
+      <class name="Jenkin.JenkinIntegration">
+        <test-method status="PASS" signature="f()[pri:0, instance:Jenkin.JenkinIntegration@7cdbc5d3]" name="f" duration-ms="7" started-at="2017-10-19T22:12:43Z" finished-at="2017-10-19T22:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Jenkin.JenkinIntegration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
